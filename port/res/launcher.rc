@@ -1,4 +1,0 @@
-/* Resources of upsy_launcher.exe: the same as upsy.exe with its own name and description. */
-#define UPSY_FILE "upsy_launcher.exe"
-#define UPSY_DESC "Upsy - settings and launcher for the unofficial SDL2 port"
-#include "upsy.rc"

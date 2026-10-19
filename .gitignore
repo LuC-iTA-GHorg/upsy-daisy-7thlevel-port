@@ -8,13 +8,17 @@
 *.BMP
 *.MID
 *.WAV
-/TUPSYPC.TXT
+*.TXT
+*.TTF
+*.ttf
+!/tools/fonts/*.ttf
 JOYSTICK/
 
 # Game state written by the program (settings, high scores) and local settings
 7THLEVEL.INI
-upsy.ini
-upsy_trace*.txt
+*.ini
+!*.ini.example
+*_trace*.txt
 
 # Generated: build\ also contains the game logic translated from the user's game files
 /build/
