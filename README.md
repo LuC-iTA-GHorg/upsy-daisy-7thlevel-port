@@ -12,6 +12,8 @@ a git submodule (`engine\`). No emulator, no virtual machine.
 
 ## Status
 
+The engine implements every feature of the original 7th Level Runtime Player.
+
 - Upsy Daisy and Inside Outwords can be played from start to end: intro, menu, options, scores,
   both games, exit sequence and credits.
 - Screens are compared automatically with the original game: menus, intro, games and exit
@@ -24,7 +26,8 @@ a git submodule (`engine\`). No emulator, no virtual machine.
 - Windows 10 or 11, 64-bit, and git.
 - The files of the original CD: `TUPSYPC.BIN`, `TOPSY.BIN`, `TOPSMAIN.BIN`, `TOPSOPN1.BIN`,
   `TOPSOPN2.BIN`, `TOPSUPSY.BIN`, `TOPSWORD.BIN`, `TOPSFINA.BIN`, `TOPSCRED.BIN`, `TOPSSING.BIN`
-  and, for the icon, the cursors and the settings section, `TOPSY.EXE`.
+  and, for the icon, the cursors and the settings section, `TOPSY.EXE`. The `.DLL` files of the CD
+  are not used.
 - About 120 MB of free space for the portable build tools (downloaded on request).
 
 ## Building
