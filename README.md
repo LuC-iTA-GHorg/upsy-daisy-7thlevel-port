@@ -12,6 +12,8 @@ a git submodule (`engine\`). No emulator, no virtual machine.
 
 ## Status
 
+Update 2026-10-25, engine `1674013`: sprite replacement (opcode 18) and immediate animation commands (builtin 5A) now behave like the original.
+
 Update 2026-10-25 (engine `aa95168`): sprite replacement keeps the draw layers and up to 4642 collision pairs are checked, like the original (both found in Chiseler).
 
 The engine implements every feature of the original 7th Level Runtime Player.
