@@ -57,6 +57,9 @@ If you cloned without `--recursive`: `git submodule update --init`.
 
 Start `build\upsy_launcher.exe` (settings, then "Start"), or `build\upsy.exe`. Options, keys and
 the `upsy.ini` settings are described in the engine's README.
+In full screen on a widescreen monitor the picture keeps the original 4:3 with black bars;
+choosing "Stretch to fill" under "Aspect ratio" in the launcher (`Aspect=stretch` in
+`upsy.ini`) fills the screen instead.
 
 ## History
 
